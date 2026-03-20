@@ -8,7 +8,7 @@ function App() {
     <>
 
 
-     <Navbar></Navbar>
+     <Navbar> </Navbar>
 
     </>
 
