@@ -12,6 +12,7 @@
         "Free SSL"
       ],
       "isPopular": false
+
     },
     {
       "id": 2,
@@ -25,7 +26,8 @@
         "Free SSL",
         "Daily Backup"
       ],
-      "isPopular": true
+      "isPopular": true,
+      "badge": "Most Popular"
     },
     {
       "id": 3,
@@ -41,6 +43,7 @@
         "Advanced Security"
       ],
       "isPopular": false
+    
     }
   ]
 }

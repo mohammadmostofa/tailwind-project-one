@@ -2,12 +2,14 @@ import React from 'react';
 import PricinFeature from './PricinFeature';
 
 const PricingCards = ({pricing}) => {
-const {name,price,duration,features}= pricing;
+const {name,price,duration,features,isPopular}= pricing;
   return (
 
     <div className=' bg-green-700 px-10 py-15 rounded-xl '>
+              
+      <button className= {`  p-1 rounded-full   ${isPopular ? 'bg-amber-300 text-black': 'hidden' } `} > Most Popular </button>
 
-            <div className='mb-5'>
+            <div className='my-5'>
                <h2 className='text-5xl font-bold '>{name} </h2>
                <p className='text-3xl font-semibold mt-3'> {price} </p>
             </div>
