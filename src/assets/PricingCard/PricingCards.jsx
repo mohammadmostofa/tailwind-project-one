@@ -5,7 +5,7 @@ const PricingCards = ({pricing}) => {
 const {name,price,duration,features}= pricing;
   return (
 
-    <div className=' bg-green-700 px-10 py-15 rounded-xl'>
+    <div className=' bg-green-700 px-10 py-15 rounded-xl '>
 
             <div className='mb-5'>
                <h2 className='text-5xl font-bold '>{name} </h2>

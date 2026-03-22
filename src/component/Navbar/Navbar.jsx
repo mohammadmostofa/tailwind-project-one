@@ -32,9 +32,8 @@ const Navbar = () => {
                      </span>
                     
                     <ul className= {`flex md:hidden flex-col justify-center items-center text-center
-                        absolute left-1 duration-1000 h-65 w-60 border-amber-300 bg-red-800 hover:text-yellow-400
-                        space-y-2  ml-15 rounded-xl
-                        ${ open ? 'top-35' : '-top-96'}
+                        absolute duration-1000 h-65 w-65 border-amber-300 bg-red-900  hover:text-yellow-400
+                        space-y-2  left-10  ${ open ? 'top-35' : '-top-96'}
                          
                        `}>
                           {Links}
