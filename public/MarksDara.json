@@ -1,0 +1,69 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Rahim",
+      "marks": {
+        "physics": 78,
+        "math": 85,
+        "biology": 72
+      },
+      "address": {
+        "city": "Dhaka",
+        "country": "Bangladesh"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Karim",
+      "marks": {
+        "physics": 88,
+        "math": 90,
+        "biology": 80
+      },
+      "address": {
+        "city": "Chittagong",
+        "country": "Bangladesh"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sakib",
+      "marks": {
+        "physics": 60,
+        "math": 70,
+        "biology": 65
+      },
+      "address": {
+        "city": "Sylhet",
+        "country": "Bangladesh"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Tamim",
+      "marks": {
+        "physics": 92,
+        "math": 89,
+        "biology": 85
+      },
+      "address": {
+        "city": "Khulna",
+        "country": "Bangladesh"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Jamal",
+      "marks": {
+        "physics": 55,
+        "math": 60,
+        "biology": 58
+      },
+      "address": {
+        "city": "Rajshahi",
+        "country": "Bangladesh"
+      }
+    }
+  ]
+}
